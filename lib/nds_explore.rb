@@ -8,9 +8,10 @@ require 'directors_database'
 def pretty_print_nds(nds)
  pp nds
 end
-     binding.pry
+   
 def print_first_directors_movie_titles
   titles = []
+    binding.pry
   movies = directors_database[0][:movies]
     movies.each do |movie|
  
