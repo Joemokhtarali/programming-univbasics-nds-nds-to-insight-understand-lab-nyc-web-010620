@@ -10,10 +10,10 @@ def pretty_print_nds(nds)
 end
    
 def print_first_directors_movie_titles
-    
+    array = []
   movies = directors_database[0][:movies]
     movies.each do |movie|
-      movie[:title]
+      array << movie[:title]
     
   end 
 end 
