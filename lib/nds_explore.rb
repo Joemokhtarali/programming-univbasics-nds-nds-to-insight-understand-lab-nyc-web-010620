@@ -22,6 +22,8 @@ def print_first_directors_movie_titles
   # i = 0 
   # while i < movies.length
   
+  
+  
 end 
   
   # array, hash(2 keys) movies, hash [title] 
