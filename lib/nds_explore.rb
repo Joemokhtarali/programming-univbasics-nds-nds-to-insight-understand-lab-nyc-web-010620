@@ -13,6 +13,7 @@ def print_first_directors_movie_titles
   titles = []
   movies = directors_database[0][:movies]
   # movies is AoHs
+  movies.each 
   
 end 
   
