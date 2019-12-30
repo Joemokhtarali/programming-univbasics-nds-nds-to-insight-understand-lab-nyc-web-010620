@@ -11,14 +11,8 @@ end
 
 def print_first_directors_movie_titles
   titles = []
-  directors_database[0][:movies].each do |hash|
-    hash.each do |key, value|
-      if key == :title 
-        titles << :title
-      end 
-    end 
-  end 
-  puts titles
+  movies = directors_database[0][:movies]
+  
 end 
   
   # array, hash(2 keys) movies, hash [title] 
