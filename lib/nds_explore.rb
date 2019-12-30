@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   directors_database[0][:movies].each do |hash|
     hash.each do |key, value|
       if key == :title 
-        titles << :title[value]
+        titles << :title
       end 
     end 
   end 
