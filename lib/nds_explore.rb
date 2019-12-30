@@ -22,10 +22,7 @@ def print_first_directors_movie_titles
       array << movie[:title]
       i += 1
     end 
-    
-    
-  end
-end 
+  
   return array 
 end 
       # movies.each do |movie|
