@@ -4,7 +4,7 @@ require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 
 
-binding.pry
+
 
 def pretty_print_nds(nds)
  pp nds
