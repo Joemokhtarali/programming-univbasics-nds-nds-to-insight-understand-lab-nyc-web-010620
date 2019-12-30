@@ -5,6 +5,7 @@ require 'directors_database'
 
 
 binding.pry
+
 def pretty_print_nds(nds)
  pp nds
 end
