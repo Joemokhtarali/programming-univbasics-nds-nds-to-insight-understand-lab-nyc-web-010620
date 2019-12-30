@@ -13,7 +13,7 @@ end
    
    
 def print_first_directors_movie_titles
-    array = []
+    
     movies = directors_database[0][:movies]
     
     i = 0 
@@ -23,7 +23,7 @@ def print_first_directors_movie_titles
       i += 1
     end 
   
-  return array 
+
 end 
       # movies.each do |movie|
     #   array << movie[:title]
