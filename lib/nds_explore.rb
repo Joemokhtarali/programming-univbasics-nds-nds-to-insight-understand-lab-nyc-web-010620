@@ -18,8 +18,8 @@ def print_first_directors_movie_titles
     
     i = 0 
     while i < movies.length do 
-      movie = movies[i]
-      array << movie[:title]
+      movie = movies[i][:title]
+      puts movie
       i += 1
     end 
   
