@@ -17,7 +17,9 @@ def print_first_directors_movie_titles
     movies.each do |movie|
       array << movie[:title]
     
-  end 
+  end
+  
+  return array 
 end 
   
   # array, hash(2 keys) movies, hash [title] 
