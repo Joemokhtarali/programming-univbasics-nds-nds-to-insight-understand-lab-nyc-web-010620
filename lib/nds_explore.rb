@@ -16,7 +16,7 @@ def print_first_directors_movie_titles
   movies.each do |movie|
     binding.pry
     
-    
+  end 
   
   
   
