@@ -18,7 +18,7 @@ def print_first_directors_movie_titles
       end 
     end 
   end 
-  return titles
+  puts titles
 end 
   
   # array, hash(2 keys) movies, hash [title] 
